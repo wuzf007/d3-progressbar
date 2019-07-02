@@ -1,14 +1,26 @@
 # d3-progressbar
-### 组件使用方式
-#### 第一步：使用vue-cli 构建项目
-安装vue脚手架：npm install -g @vue/cli
-** <br/>
-d3 插件：npm install -g -d3
-#### 第二步：创建项目
+## 组件使用方式
+### 第一步：使用vue-cli 构建项目
+
+安装vue脚手架;
+
+```
+//代码块
+npm install -g @vue/cli;
+```
+
+d3 插件：;
+```
+//代码块
+npm install -g -d3;
+```
+### 第二步：创建项目
 <br/>
+
 ```
 vue create test
 ```
+
 #### 第三步：全局注册组件
  <br/>
 在main.js里面导入组件
