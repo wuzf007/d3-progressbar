@@ -17,7 +17,6 @@ vue create test
 import d3progressbar from "d3-progressbar";
 Vue.use(d3progressbar);
 ```
-<br/>
 #### 第四步：组件使用
 <br/>
 ```
