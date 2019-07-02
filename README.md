@@ -29,16 +29,14 @@ vue create test
 import d3progressbar from "d3-progressbar";
 Vue.use(d3progressbar);
 ```
+
 ### 第四步：组件使用
 
 ```
 //代码块
 <template>
   <div class="about">
-    <d3-progressbar :bardata=bardata></d3-progressbar>
-    <div style="margin-top:10px;">
-    	<!--<d3-progressbar :bardata=bardata></d3-progressbar>-->
-    </div>
+    <d3progressbar :bardata=bardata></d3progressbar>
   </div>
 </template>
 <script>
