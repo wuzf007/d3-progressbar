@@ -14,6 +14,7 @@ d3 插件：;
 //代码块
 npm install -g -d3;
 ```
+
 ### 第二步：创建项目
 <br/>
 
@@ -22,8 +23,9 @@ vue create test
 ```
 
 ### 第三步：全局注册组件
- <br/>
+
 在main.js里面导入组件;
+
 ```
 //代码块
 import d3progressbar from "d3-progressbar";
