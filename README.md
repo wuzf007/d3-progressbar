@@ -21,7 +21,7 @@ Vue.use(d3progressbar);
 <br/><script>
 <br/>	var barjson = {
 <br/>			max:898, //进度条的最大值 ，同时也是进度条的值域 domain 
-<br/>      		space:40,//上下进度条的间距大小
+<br/>     space:40,//上下进度条的间距大小
 <br/>			size:16,//文字的大小
 <br/>			width:400,//svg的总宽度，即显示区域的总宽度
 <br/>			rangelength:300,//比例尺映射的宽度，即映射域 range
